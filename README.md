@@ -6,9 +6,6 @@ It's here primarily to allow readers to follow along.
 ![Image of People walking around a brutalist sci-fi city, digital art style, with the words "Sustainable Web Development with
 Ruby on Rails Dev Environment" printed on top](./SocialImage.jpg)
 
-**This image was [created almost entirely by DALL-E](https://declare-ai.org/1.0.0/creative.html), with me adding the text and
-doing some cropping**
-
 
 ## How to Use
 
@@ -92,4 +89,13 @@ To use this for your app:
 1. `dx/build`
 1. `dx/start`
 1. etc.
+
+## Colophon
+
+* This repo is synced from a private repo where the book is developed.  These are the actual files the book uses to execute the
+code.
+* The social image was [created almost entirely by DALL-E](https://declare-ai.org/1.0.0/creative.html), with me adding the text and doing some cropping.
+  - Text is set in Futura Bold and Medium.
+  - The prompt was "Massive group of people building steam pipes in brutalist modernist style, digital art"
+* All other content was [created without any assistance from a Generative AI](https://declare-ai.org/1.0.0/none.html).
 
