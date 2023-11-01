@@ -1,7 +1,10 @@
-# Dev Environment for the Sustainablel Rails Book
+# Dev Environment for the Sustainable Rails Book
 
 This is the dev environment used in the book [Sustainable Web Development with Ruby on Rails](https://sustainable-rails.com).
 It's here primarily to allow readers to follow along.
+
+![Image of People walking around a brutalist sci-fi city, digital art style, with the words "Sustainable Web Development with
+Ruby on Rails Dev Environment" printed on top](./SocialImage.png)
 
 ## How to Use
 
@@ -71,7 +74,7 @@ Yes, you could use this as the basis for a dev environment for your Rails app.  
 
 To use this for your app:
 
-1. Copy the files in this repo to your app
+1. Copy the files in this repo to your app or clone it using GitHub's template repository feature.
 1. Edit `dx/docker-compose.env` and change the values there:
    - `IMAGE` should be in format `«org»/«repo»:«tag»`, where:
       * `«org»` is your org on Docker Hub or GitHub (doesn't really matter and could be omitted)
