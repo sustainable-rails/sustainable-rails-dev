@@ -4,7 +4,11 @@ This is the dev environment used in the book [Sustainable Web Development with R
 It's here primarily to allow readers to follow along.
 
 ![Image of People walking around a brutalist sci-fi city, digital art style, with the words "Sustainable Web Development with
-Ruby on Rails Dev Environment" printed on top](./SocialImage.png)
+Ruby on Rails Dev Environment" printed on top](./SocialImage.jpg)
+
+**This image was [created almost entirely by DALL-E](https://declare-ai.org/1.0.0/creative.html), with me adding the text and
+doing some cropping**
+
 
 ## How to Use
 
