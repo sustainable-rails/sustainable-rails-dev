@@ -1,0 +1,37 @@
+# Each entry in services must be a valid hostname
+# and will represent a container that gets run when
+# dx/start is executed
+services:
+  # This is the container where you will run Rails
+  # and do development.  The value for IMAGE is provided by 
+  # dx/docker-compose.env
+  sustainable-rails-dev:
+    image: ${IMAGE}
+    pull_policy: "missing"
+    init: true
+    volumes:
+      - type: bind
+        source: "./"
+        target: "/root/work"
+        consistency: "consistent"
+    entrypoint: "/usr/sbin/sshd -D"
+    working_dir: /root/work
+    ports:
+      - "9999:3000"
+    depends_on:
+      db:
+        condition: "service_started"
+      redis:
+        condition: "service_started"
+  # This uses the Postgres image from DockerHub and
+  # configures an explicit password so we can safely
+  # hard-code that into our scripts
+  db:
+    image: postgres:15
+    pull_policy: "missing"
+    environment:
+      POSTGRES_PASSWORD: postgres
+  # This uses the Redis image from DockerHub
+  redis:
+    image: redis:6
+    pull_policy: "missing"
