@@ -3,8 +3,8 @@
 This is the dev environment used in the book [Sustainable Web Development with Ruby on Rails](https://sustainable-rails.com).
 It's here primarily to allow readers to follow along.
 
-![Image of People walking around a brutalist sci-fi city, digital art style, with the words "Sustainable Web Development with
-Ruby on Rails Dev Environment" printed on top](./SocialImage.jpg)
+![The phrases "Sustainable Web Development with Ruby on Rails" and "DEV ENVIRONMENT" on top of a blurry image of the House of Eyrabakki in Iceland](./SocialImage.jpg)
+
 
 
 ## How to Use
@@ -92,10 +92,7 @@ To use this for your app:
 
 ## Colophon
 
-* This repo is synced from a private repo where the book is developed.  These are the actual files the book uses to execute the
-code.
-* The social image was [created almost entirely by DALL-E](https://declare-ai.org/1.0.0/creative.html), with me adding the text and doing some cropping.
-  - Text is set in Futura Bold and Medium.
-  - The prompt was "Massive group of people building steam pipes in brutalist modernist style, digital art"
-* All other content was [created without any assistance from a Generative AI](https://declare-ai.org/1.0.0/none.html).
+* This repo is synced from a private repo where the book is developed.  These are the actual files the book uses to execute the code.
+* The social image was created in Pixelmator based on a 35mm photo I took of the House of Eyrabakki in Iceland. Text is set in Helvetica Neue.
+* All content was [created without any assistance from a Generative AI](https://declare-ai.org/1.0.0/none.html).
 
