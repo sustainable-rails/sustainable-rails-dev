@@ -9,6 +9,13 @@ services:
     image: ${IMAGE}
     pull_policy: "missing"
     init: true
+    # This sets up a bind mount of the local directory
+    # to appear in /root/work inside the container.  This allows
+    # you to edit code on your computer and have it instantly
+    # reflected inside the Docker container.  For example, if you 
+    # change a Rails view and reload your browser, the Rails
+    # server running inside the Docker container will see
+    # your changes.
     volumes:
       - type: bind
         source: "./"
