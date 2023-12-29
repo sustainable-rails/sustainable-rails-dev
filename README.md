@@ -12,7 +12,7 @@ It's here primarily to allow readers to follow along.
 1. Ensure you have Docker installed
 1. Clone this repo
 1. `dx/build` - this will build a *Docker image* you will use to *start a container* in which development can happen
-1. `dx/start` - this will use *Dockerk Compose* to start three *containers*: a linux dev box using the image you built in the previous step (which is where you will run Rails), Postgres, and Redis.
+1. `dx/start` - this will use *Docker Compose* to start three *containers*: a linux dev box using the image you built in the previous step (which is where you will run Rails), Postgres, and Redis.
 1. In another terminal, you can do `dx/exec bash` to get a prompt into the container where you will do dev work.  You can also issue commands directly, e.g. `dx/exec rails --help`
 
 ## What is What
