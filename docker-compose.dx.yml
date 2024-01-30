@@ -21,7 +21,7 @@ services:
         source: "./"
         target: "/root/work"
         consistency: "consistent"
-    entrypoint: "/usr/sbin/sshd -D"
+    entrypoint: "/root/show-help-in-app-container-then-wait.sh"
     working_dir: /root/work
     ports:
       - "9999:3000"
